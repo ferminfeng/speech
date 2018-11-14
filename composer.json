@@ -1,0 +1,32 @@
+{
+    "name": "fyflzjz/speech",
+    "type": "library",
+    "description": "语音合成SDK，百度语音",
+    "keywords": [
+		"speech",
+		"AipSpeech",
+		"百度语音",
+	],
+    "homepage": "https://github.com/fyflzjz/speech",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fyflzjz",
+            "email": "ferminfeng@gmail.com",
+            "homepage": "http://fyflzjz.github.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+			"fyflzjz\\speech\\": "/src"
+		}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
+        }
+    }
+}
