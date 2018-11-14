@@ -20,11 +20,11 @@ namespace fyflzjz\speech\Baidu\lib;
 /**
  * Aip Base 基类
  */
-use fyflzjz\paypal\BaiDuSpeech\lib\AipBCEUtil;
-use fyflzjz\paypal\BaiDuSpeech\lib\AipHttpClient;
-use fyflzjz\paypal\BaiDuSpeech\lib\AipImageUtil;
-use fyflzjz\paypal\BaiDuSpeech\lib\AipSampleSigner;
-use fyflzjz\paypal\BaiDuSpeech\lib\AipSignOption;
+use fyflzjz\speech\Baidu\lib\AipBCEUtil;
+use fyflzjz\speech\Baidu\lib\AipHttpClient;
+use fyflzjz\speech\Baidu\lib\AipImageUtil;
+use fyflzjz\speech\Baidu\lib\AipSampleSigner;
+use fyflzjz\speech\Baidu\lib\AipSignOption;
 class AipBase {
 
     /**
